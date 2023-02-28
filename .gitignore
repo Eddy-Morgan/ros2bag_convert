@@ -1,5 +1,0 @@
-install/*
-build/*
-*.pyc
-dist/*
-ros2bag_convert.egg-info/*

@@ -1,11 +1,7 @@
 import sqlite3
-import numpy as np
-from rcl_interfaces import msg
 from rosidl_runtime_py.utilities import get_message
 from rclpy.serialization import deserialize_message
-# import sys
-# sys.path.append("/home/ros2/rosbag2_csv/rosbag2/")
-from . import message_converter, save_csv_file
+import message_converter, save_csv_file
 import json
 import os
 
